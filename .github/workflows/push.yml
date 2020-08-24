@@ -30,9 +30,12 @@ jobs:
           - 0.8.2
         kernel:
           # LinuxKit variants
-#          - 4.14.131-linuxkit
+          - 4.9.60-linuxkit
+          - 4.9.87-linuxkit
+          - 4.9.93-linuxkit
           - 4.9.184-linuxkit
           - 4.9.125-linuxkit
+          - 4.19.76-linuxkit
           # Ubuntu variants
           - 5.0.0-25-generic
           - 5.3.0-28-generic
